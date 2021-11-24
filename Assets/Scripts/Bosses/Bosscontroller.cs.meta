@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f29edecca0456489e9683637686c6f4a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BossBullet: {fileID: 3638174045103918597, guid: 29ce45af54e47451ebb64d218b8166c3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
