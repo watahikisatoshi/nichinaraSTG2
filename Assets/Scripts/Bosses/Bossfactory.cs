@@ -9,7 +9,7 @@ public class Bossfactory : MonoBehaviour
     void Start()
     {
 
-        InvokeRepeating("Spawn", 1f, 0.3f);
+        InvokeRepeating("Spawn", 1f, 0.5f);
 
     }
 

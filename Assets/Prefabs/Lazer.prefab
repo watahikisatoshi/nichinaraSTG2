@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -9105459615543820734}
   m_Layer: 0
   m_Name: Lazer
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2937ef31c638c45839539f10830cb5cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!58 &-1657947718200257175
 CircleCollider2D:
   m_ObjectHideFlags: 0
