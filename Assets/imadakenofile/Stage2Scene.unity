@@ -287,6 +287,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &443331383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 443331384}
+  - component: {fileID: 443331385}
+  m_Layer: 0
+  m_Name: BossfactoryStage2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443331384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443331383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443331385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443331383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846a6ace684bc433da0a2a658a20994b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7657442646525148096, guid: f5cdd3cceec0e4fb1b32225a91a972fb, type: 3}
 --- !u!1 &447311692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,7 +1174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1587032094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,8 +1213,6 @@ GameObject:
   - component: {fileID: 1625825849}
   - component: {fileID: 1625825848}
   - component: {fileID: 1625825847}
-  - component: {fileID: 1625825846}
-  - component: {fileID: 1625825845}
   - component: {fileID: 1625825844}
   - component: {fileID: 1625825843}
   m_Layer: 0
@@ -1208,32 +1250,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BossBullet: {fileID: 8308410850722227564, guid: 9041fac38e461480a94c3b01a2abd041, type: 3}
   speed: 5
---- !u!114 &1625825845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625825842}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f29edecca0456489e9683637686c6f4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BossBullet: {fileID: 8308410850722227564, guid: 9041fac38e461480a94c3b01a2abd041, type: 3}
-  speed: 5
---- !u!114 &1625825846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625825842}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e408270e32c4a80b6057fff9ead826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1625825847
 MonoBehaviour:
   m_ObjectHideFlags: 0
